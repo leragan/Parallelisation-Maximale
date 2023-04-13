@@ -17,10 +17,10 @@ Sortie : Aucune
 Fonction qui permet d'éxécuter les tâches en même temps à une même profondeur.
 
 
-Créaction d'un dictionnaire contenant la profondeur des chaque tache.
+Créaction d'un dictionnaire depths contenant la profondeur de chaque tache.
 
 
-Calcul de la profondeur de chaque tache.
+Calcul de la profondeur de chaque tache et ajout dans le dictionnaire.
 
 
 Executes les taches qui sont à la même profondeur.
