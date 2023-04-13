@@ -1,5 +1,7 @@
 # Parallelisation-Maximale
-Projet L3 Python
+Projet L3 Python (TRAN VALENTIN, SZPUNAR BARTHELEMI)
+
+##Explication des fonctions
 
 ### run
 Fonction utlisée : depth, append, start, join
