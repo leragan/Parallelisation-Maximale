@@ -59,6 +59,9 @@ Fonction qui permet de récupérer et déssiner le graphe
 
 
 ### parCost 
+Fonction utlisée : range, time, run, append, runSeq, mean, print
+
+
 Entrée : Aucune
 
 
