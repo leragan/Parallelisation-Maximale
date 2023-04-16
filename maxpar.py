@@ -1,4 +1,4 @@
-from multiprocessing import Process, connection
+import threading
 from graphviz import Digraph
 import time
 import statistics
@@ -88,7 +88,7 @@ class TaskSystem:
             ps = []
             for task in depths[depth]:
                 if __name__ == '__main__' : 
-                    p = Process(target=task.run())
+                    p = threading.Thread(target=task.run)
                     ps.append(p)
                     p.start()
             for p in ps:
