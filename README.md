@@ -108,7 +108,7 @@ On crée un dictionnaire "depths".
 
 Calcul de la profondeur de chaque tâche et ajout dans le dictionnaire.
 
-Executes les tâches qui sont à la même profondeur.
+Exécutes les tâches qui sont à la même profondeur.
 
 ### run
 Fonction utlisée : depth, append, start, join
@@ -162,7 +162,7 @@ Entreé : Aucune
 Sortie : Aucune
 
 
-Fonction qui permet de récupérer et déssiner le graphe
+Fonction qui permet de récupérer et dessiner le graphe
 
 
 ### parCost 
@@ -175,7 +175,7 @@ Entrée : Aucune
 Sortie : Aucune
 
 
-Fonction qui calcule la moyenne du tems d'éxécution du système en para et seq.
+Fonction qui calcule la moyenne du temps d'éxécution du système en para et seq.
 
 
 Créer 2 listes de temps pour para et seq.
