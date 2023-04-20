@@ -111,7 +111,7 @@ Calcul de la profondeur de chaque tâche et ajout dans le dictionnaire.
 Exécutes les tâches qui sont à la même profondeur.
 
 ### run
-Fonction utlisée : depth, append, start, join
+Fonction utilisée : depth, append, start, join
 
 
 Entrée : Aucune
