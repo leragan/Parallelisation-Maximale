@@ -87,7 +87,6 @@ class TaskSystem:
         for depth in depths:
             ps = []
             for task in depths[depth]:
-                if __name__ == '__main__' : 
                     p = threading.Thread(target=task.run)
                     ps.append(p)
                     p.start()
@@ -136,10 +135,12 @@ Z = None
 def runT1():
     global X
     X = 60
+    time.sleep(0.5)
 
 def runT2():
     global Y
     Y = 40
+    time.sleep(0.5)
 
 def runTsomme():
     global X, Y, Z
@@ -160,7 +161,7 @@ tSomme.reads = ["X", "Y"]
 tSomme.writes = ["Z"]
 tSomme.run = runTsomme
 
-s1 = TaskSystem([t1, t2, tSomme], {"T1": [], "T2": ["T1"], "somme": ["T1", "T2"]})
+s1 = TaskSystem([t1, t2, tSomme], {"T1": [], "T2": [], "somme": ["T1", "T2"]})
 
 s1.run()
 s1.draw()
